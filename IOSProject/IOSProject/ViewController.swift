@@ -14,8 +14,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // Do any additional setup after loading the view.
+        title = "Barra de navegaciòn Tests"
+        configureItems()
+        
+    }
+    private func configureItems(){
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: nil)
     }
 
 
