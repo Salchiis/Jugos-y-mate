@@ -33,6 +33,9 @@
                                     <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="45"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="blogPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qD3-OA-7Y3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzt-TV-ovk">
                                 <rect key="frame" x="12" y="476" width="253" height="51"/>
@@ -74,6 +77,10 @@
                             <constraint firstItem="wBc-40-djT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-68.5" id="ytS-TF-JuU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blogPage" destination="OUg-ut-AfI" id="GVx-g1-a2E"/>
+                        <outlet property="resourcesPage" destination="Uzt-TV-ovk" id="zcv-eO-ekf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
