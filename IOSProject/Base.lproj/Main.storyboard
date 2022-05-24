@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n2p-jd-2G0">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOSProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="victor-garcia-iaquA2snPbk-unsplash" translatesAutoresizingMaskIntoConstraints="NO" id="GmS-Lb-Xf4">
+                                <rect key="frame" x="-1043" y="-384.5" width="2500" height="1665"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1665" id="D7Q-hI-QhW"/>
+                                    <constraint firstAttribute="width" constant="2500" id="eHP-cN-dkS"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUg-ut-AfI">
+                                <rect key="frame" x="12" y="394" width="167" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Blog" subtitle="">
+                                    <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="45"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uzt-TV-ovk">
+                                <rect key="frame" x="12" y="476" width="253" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Recursos" subtitle="">
+                                    <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="45"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBc-40-djT">
+                                <rect key="frame" x="12" y="561" width="253" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Nosotros" subtitle="">
+                                    <fontDescription key="titleFontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="45"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gmj-Wr-T4v">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO+SOSTEK+VERDE-4" translatesAutoresizingMaskIntoConstraints="NO" id="J9g-YS-6gW">
+                                <rect key="frame" x="87" y="44" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="J9g-YS-6gW" firstAttribute="width" secondItem="GmS-Lb-Xf4" secondAttribute="width" multiplier="0.096" id="5kc-Gz-fIT"/>
+                            <constraint firstItem="OUg-ut-AfI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-111.5" id="7W1-Ig-WU9"/>
+                            <constraint firstItem="OUg-ut-AfI" firstAttribute="height" secondItem="GmS-Lb-Xf4" secondAttribute="height" multiplier="0.0306306" id="BRO-Cl-3iZ"/>
+                            <constraint firstItem="Uzt-TV-ovk" firstAttribute="height" secondItem="GmS-Lb-Xf4" secondAttribute="height" multiplier="0.0306306" id="Bs6-YO-Ldd"/>
+                            <constraint firstItem="J9g-YS-6gW" firstAttribute="height" secondItem="GmS-Lb-Xf4" secondAttribute="height" multiplier="0.0768769" id="FVm-U6-xcH"/>
+                            <constraint firstItem="OUg-ut-AfI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-28.5" id="GP3-Dr-AHp"/>
+                            <constraint firstItem="J9g-YS-6gW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HP2-jS-aSl"/>
+                            <constraint firstItem="wBc-40-djT" firstAttribute="height" secondItem="GmS-Lb-Xf4" secondAttribute="height" multiplier="0.0306306" id="StN-4D-Cg5"/>
+                            <constraint firstItem="Uzt-TV-ovk" firstAttribute="width" secondItem="GmS-Lb-Xf4" secondAttribute="width" multiplier="0.1012" id="V8j-gp-Smq"/>
+                            <constraint firstItem="GmS-Lb-Xf4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gm6-0A-Btw"/>
+                            <constraint firstItem="Uzt-TV-ovk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-68.5" id="hQ7-cg-21r"/>
+                            <constraint firstItem="OUg-ut-AfI" firstAttribute="width" secondItem="GmS-Lb-Xf4" secondAttribute="width" multiplier="0.0668" id="jnR-Hh-aBB"/>
+                            <constraint firstItem="J9g-YS-6gW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-340" id="pdJ-xp-Uyp"/>
+                            <constraint firstItem="GmS-Lb-Xf4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="sev-cz-lsa"/>
+                            <constraint firstItem="Uzt-TV-ovk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="53.5" id="t05-qf-JLM"/>
+                            <constraint firstItem="wBc-40-djT" firstAttribute="width" secondItem="GmS-Lb-Xf4" secondAttribute="width" multiplier="0.1012" id="v9q-4M-6ZQ"/>
+                            <constraint firstItem="wBc-40-djT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="138.5" id="vbc-hu-U26"/>
+                            <constraint firstItem="wBc-40-djT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-68.5" id="ytS-TF-JuU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5aJ-ic-LbY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042.0289855072465" y="115.84821428571428"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WxF-gF-jzS">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="n2p-jd-2G0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K67-8W-fV7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sDb-Hq-1x4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="81I-Hc-5fN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO+SOSTEK+VERDE-4" width="2500" height="1405"/>
+        <image name="victor-garcia-iaquA2snPbk-unsplash" width="2500" height="3750"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
