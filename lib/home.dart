@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Flutter Mentor Quiz App',
+          'JAVA Programing quizz',
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -195,77 +195,78 @@ class _HomeState extends State<Home> {
 
 final _questions = const [
   {
-    'question': 'How long is New Zealand’s Ninety Mile Beach?',
+    'question': 'Which of the following is not a unary operator?',
     'answers': [
-      {'answerText': '88km, so 55 miles long.', 'score': true},
-      {'answerText': '55km, so 34 miles long.', 'score': false},
-      {'answerText': '90km, so 56 miles long.', 'score': false},
+      {'answerText': 'Assigment', 'score': true},
+      {'answerText': 'Decrement.', 'score': false},
+      {'answerText': 'Bitwise complement.', 'score': false},
+    ],
+  },
+  {
+    'question': 'It is the Java keyword that creates inheritance.',
+    'answers': [
+      {'answerText': 'Enlarge', 'score': false},
+      {'answerText': 'Inherits', 'score': false},
+      {'answerText': 'Extends', 'score': true},
+    ],
+  },
+  {
+    'question': 'Which symbol is used to denote a multi-line comment?',
+    'answers': [
+      {'answerText': '//', 'score': false},
+      {'answerText': '*/ */', 'score': false},
+      {'answerText': '<-- -->', 'score': true},
     ],
   },
   {
     'question':
-        'In which month does the German festival of Oktoberfest mostly take place?',
+        'It is a form of Java program that runs locally on the command line.',
     'answers': [
-      {'answerText': 'January', 'score': false},
-      {'answerText': 'October', 'score': false},
-      {'answerText': 'September', 'score': true},
+      {'answerText': 'Applets', 'score': false},
+      {'answerText': 'Application', 'score': true},
+      {'answerText': 'Midlets', 'score': false},
     ],
   },
   {
-    'question': 'Who composed the music for Sonic the Hedgehog 3?',
+    'question': 'It is the code/s inside a pair of curly braces.',
     'answers': [
-      {'answerText': 'Britney Spears', 'score': false},
-      {'answerText': 'Timbaland', 'score': false},
-      {'answerText': 'Michael Jackson', 'score': true},
-    ],
-  },
-  {
-    'question': 'In Georgia (the state), it’s illegal to eat what with a fork?',
-    'answers': [
-      {'answerText': 'Hamburgers', 'score': false},
-      {'answerText': 'Fried chicken', 'score': true},
-      {'answerText': 'Pizza', 'score': false},
+      {'answerText': 'Block', 'score': true},
+      {'answerText': 'Brick', 'score': false},
+      {'answerText': 'Function', 'score': false},
     ],
   },
   {
     'question':
-        'Which part of his body did musician Gene Simmons from Kiss insure for one million dollars?',
+        'Which of the following is an invalid variable declaration in Java?',
     'answers': [
-      {'answerText': 'His tongue', 'score': true},
-      {'answerText': 'His leg', 'score': false},
-      {'answerText': 'His butt', 'score': false},
+      {'answerText': 'Char CivilStatus =', 'score': true},
+      {'answerText': 'Double Salary =0.0;', 'score': false},
+      {'answerText': 'Int NumberOfStudents = 250;', 'score': false},
     ],
   },
   {
-    'question': 'In which country are Panama hats made?',
+    'question': 'If A=10, then after B=++A, the value of B is _______.',
     'answers': [
-      {'answerText': 'Ecuador', 'score': true},
-      {'answerText': 'Panama (duh)', 'score': false},
-      {'answerText': 'Portugal', 'score': false},
+      {'answerText': '11', 'score': true},
+      {'answerText': '10', 'score': false},
+      {'answerText': '13', 'score': false},
     ],
   },
   {
-    'question': 'From which country do French fries originate?',
+    'question': 'It is the length of the data type short.',
     'answers': [
-      {'answerText': 'Belgium', 'score': true},
-      {'answerText': 'France (duh)', 'score': false},
-      {'answerText': 'Switzerland', 'score': false},
+      {'answerText': '32 bits', 'score': false},
+      {'answerText': '8 bits', 'score': false},
+      {'answerText': '16 bits', 'score': true},
     ],
   },
   {
-    'question': 'Which sea creature has three hearts?',
+    'question':
+        'It defines the common variables and methods of a set of objects.',
     'answers': [
-      {'answerText': 'Great White Sharks', 'score': false},
-      {'answerText': 'Killer Whales', 'score': false},
-      {'answerText': 'The Octopus', 'score': true},
-    ],
-  },
-  {
-    'question': 'Which European country eats the most chocolate per capita?',
-    'answers': [
-      {'answerText': 'Belgium', 'score': false},
-      {'answerText': 'The Netherlands', 'score': false},
-      {'answerText': 'Switzerland', 'score': true},
+      {'answerText': 'Objects', 'score': false},
+      {'answerText': 'Function', 'score': false},
+      {'answerText': 'Class', 'score': true},
     ],
   },
 ];
