@@ -150,42 +150,6 @@ class _HomeState extends State<Home> {
                 style: TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold),
               ),
             ),
-            if (answerWasSelected && !endOfQuiz)
-              Container(
-                height: 100,
-                width: double.infinity,
-                color: correctAnswerSelected ? Colors.green : Colors.red,
-                child: Center(
-                  child: Text(
-                    correctAnswerSelected
-                        ? 'Well done, you got it right!'
-                        : 'Wrong :/',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                  ),
-                ),
-              ),
-            if (endOfQuiz)
-              Container(
-                height: 100,
-                width: double.infinity,
-                color: Colors.black,
-                child: Center(
-                  child: Text(
-                    _totalScore > 4
-                        ? 'Congratulations! Your final score is: $_totalScore'
-                        : 'Your final score is: $_totalScore. Better luck next time!',
-                    style: TextStyle(
-                      fontSize: 20.0,
-                      fontWeight: FontWeight.bold,
-                      color: _totalScore > 4 ? Colors.green : Colors.red,
-                    ),
-                  ),
-                ),
-              ),
           ],
         ),
       ),
